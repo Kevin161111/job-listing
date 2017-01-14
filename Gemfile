@@ -52,3 +52,4 @@ gem "awesome_rails_console"
 gem 'devise'
 gem "simple_form"
 gem "font-awesome-rails"
+gem 'carrierwave'
