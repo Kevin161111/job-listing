@@ -1,41 +1,305 @@
 
 
-   <div class="jumbotron">
-     <h1 class="title">春聘-4倍日薪</h1>
-     <p class="slogan">
-     给不能春节回家过年的你,
-     给春节找不到员工的你
-     <br>
-      无论你是在工作还是在陪伴家人!希望大家都有个开心的春节!
-     </p>
-     <p class="lead"><a class="btn btn-lg btn-danger" href="/jobs">马上应征</a></p>
-   </div>
 
+<div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top:50px">
+     <!-- Indicators -->
+     <ol class="carousel-indicators">
+       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+       <li data-target="#myCarousel" data-slide-to="1"></li>
+       <li data-target="#myCarousel" data-slide-to="2"></li>
+     </ol>
+     <div class="carousel-inner" role="listbox" style="height:400px">
+       <div class="item active">
+         <img src="https://d3fw5vlhllyvee.cloudfront.net/tophat/s/3a465a7/index-hero-collage-2048w.jpg" alt="First slide">
+         <div class="container">
+           <div class="carousel-caption">
 
-   <div class="container text-center">
-     <h2>春聘-致力于解决节假日工作问题</h2>
-     <br>
-
-     <div class="row">
-       <div class="col-sm-4">
-         <img src="http://img.weixinyidu.com/161214/770fc2a5.jpg_slt2" class="img-responsive" style="width:88%" alt="Image">
-         <p>我们的用人单位</p>
-       </div>
-       <div class="col-sm-4">
-         <img src="http://www.ouhua.info/2016/0720/U372P5060T2D8048F39DT20160720043915.jpg" class="img-responsive" style="width:100%" alt="Image">
-         <p>我们的人员素质</p>
-       </div>
-       <div class="col-sm-4">
-         <div class="well">
-          <p href="/jobs">春节了，务工人员返乡，谁来守护空城？面对春节用工晃，我们提供完整解决方案！</p>
+             <p><a class="btn btn-lg btn-success" href="/jobs" role="button">我要找人</a></p>
+             <p><a class="btn btn-lg btn-success" href="/jobs" role="button">我要找工作</a></p>
+           </div>
          </div>
-         <div class="well">
-          <p href="/jobs">春节了，各种原因不能在家过节，既然不能陪伴，那给家人加倍再加倍补偿！</p>
+       </div>
+       <div class="item">
+         <img src="https://ww3.sinaimg.cn/large/006tNbRwly1fbwb33usp4j31kw0k877c.jpg" alt="Second slide">
+         <div class="container">
+           <div class="carousel-caption">
+             <h1>不能陪伴家人，就给他们加倍回报！</h1>
+             <p><a class="btn btn-lg btn-primary" href="#about" role="button">了解更多</a></p>
+           </div>
+         </div>
+       </div>
+       <div class="item">
+         <img src="https://ww2.sinaimg.cn/large/006tKfTcgy1fbwbev8ecsj31kw0k8q9u.jpg" alt="Third slide">
+         <div class="container">
+           <div class="carousel-caption">
+             <h1 style="color:#038B74">春节快乐！感觉不错的话投个票吧……^_^</h1>
+
+             <p><a class="btn btn-lg btn-success" href="https://fullstack.xinshengdaxue.com/works/39" role="button">投票点我</a></p>
+           </div>
          </div>
        </div>
      </div>
-   </div><br>
-
-   <div class="container">
-      <img src="http://data.chinatravel.com/images/focus/chinese-new-year/chinese-new-year-1200.jpg" alt="Image">
+     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+       <span class="glyphicon glyphicon-chevron-left"></span>
+       <span class="sr-only">Previous</span>
+     </a>
+     <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+       <span class="glyphicon glyphicon-chevron-right"></span>
+       <span class="sr-only">Next</span>
+     </a>
    </div>
+
+   <div id="about"   class="jumbotron text-center">
+      <!-- <img src="https://ww2.sinaimg.cn/large/006tKfTcly1fbwcuw4rfbj303y03ymxi.jpg" alt="leftside"> -->
+  <h2>春聘-致力于解决节假日工作问题</h2>
+  <br>
+  <p>用人单位:春节找人难啊，我愿意提供4倍日薪!</p>
+  <p>不能回家的人：回家票抢不到啊，春节就找个高薪的工作吧！</p>
+  <form class="form-inline">
+     <div class="input-group">
+       <input type="email" class="form-control" size="50" placeholder="输入Email注册" required>
+       <div class="input-group-btn">
+         <%= link_to("马上注册", new_user_registration_path, :class => "btn btn-danger")%>
+         <!-- <button type="button" class="btn btn-danger" href="/users/sign_up" >找工作</button> -->
+       </div>
+     </div>
+   </form>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+   <div class="col-sm-8">
+      <h2>用人单位</h2>
+      <h4>春聘为春节用人问题提供完美解决方案</h4>
+      <p>我们公司专注于春节期间为客户提供完美服务，春节刚好赶上用人荒，春聘的出现完美的解决了这个问题！</p>
+      <button class="btn btn-default btn-lg">了解更多</button>
+  </div>
+     <div class="col-sm-4">
+      <span class="glyphicon glyphicon-gift logo"></span>
+    </div>
+  </div>
+</div>
+
+  <div class="container-fluid bg-grey">
+    <div class="row">
+      <div class="col-sm-4">
+      <span class="glyphicon glyphicon-user logo"></span>
+      </div>
+    <div class="col-sm-8">
+      <h2>春节未归人员</h2>
+      <h4><strong>不能陪伴家人</strong> 种种原因没能和家人团聚，春聘提供4倍日薪！给家人更好的回报！</h4>
+      <p><strong>提供价值</strong> 通过春聘，给业主提供优质的服务，帮他们过个更好的春节！</p>
+     </div>
+   </div>
+ </div>
+<!-- 增加招聘福利信息 -->
+ <!-- <div class="container-fluid text-center">
+   <h2>这些企业春节招人</h2>
+   <h4>我们提供</h4>
+   <br>
+   <div class="row">
+     <div class="col-sm-4">
+       <span class="glyphicon glyphicon-off"></span>
+       <h4>POWER</h4>
+       <p>Lorem ipsum dolor sit amet..</p>
+     </div>
+     <div class="col-sm-4">
+       <span class="glyphicon glyphicon-heart"></span>
+       <h4>LOVE</h4>
+       <p>Lorem ipsum dolor sit amet..</p>
+     </div>
+     <div class="col-sm-4">
+       <span class="glyphicon glyphicon-lock"></span>
+       <h4>JOB DONE</h4>
+       <p>Lorem ipsum dolor sit amet..</p>
+     </div>
+     </div>
+     <br><br>
+   <div class="row">
+     <div class="col-sm-4">
+       <span class="glyphicon glyphicon-leaf"></span>
+       <h4>GREEN</h4>
+       <p>Lorem ipsum dolor sit amet..</p>
+     </div>
+     <div class="col-sm-4">
+       <span class="glyphicon glyphicon-certificate"></span>
+       <h4>CERTIFIED</h4>
+       <p>Lorem ipsum dolor sit amet..</p>
+     </div>
+     <div class="col-sm-4">
+       <span class="glyphicon glyphicon-wrench"></span>
+       <h4>HARD WORK</h4>
+       <p>Lorem ipsum dolor sit amet..</p>
+     </div>
+   </div>
+ </div> -->
+
+<!-- 增加招聘单位信息 -->
+ <div class="container-fluid text-center ">
+  <h2>招聘单位</h2>
+  <h4>春节4倍日薪急聘</h4>
+  <div class="row text-center">
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="https://ww4.sinaimg.cn/large/006tKfTcgy1fbwgiv9wo1j304g028aa0.jpg" alt="alibaba">
+        <p><strong>阿里巴巴</strong></p>
+        <p>招聘春节园区治安</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="https://ww2.sinaimg.cn/large/006tKfTcgy1fbwglh19dwj304g0283yg.jpg" alt="京东">
+        <p><strong>京东</strong></p>
+        <p>招聘春节快递员</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="https://ww2.sinaimg.cn/large/006tKfTcgy1fbwgmx2zmaj304g0283yc.jpg" alt="geely">
+        <p><strong>吉利汽车</strong></p>
+        <p>招聘春节维修员</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="https://ww4.sinaimg.cn/large/006tKfTcgy1fbwgql6ve9j302s01et8k.jpg" alt="lanyueliang">
+        <p><strong>蓝月亮</strong></p>
+        <p>招聘春节超市促销员</p>
+      </div>
+    </div>
+
+
+</div>
+
+
+<!-- 增加招聘职业信息 -->
+
+<div class="container-fluid">
+  <div class="text-center">
+    <h2>日薪</h2>
+    <h4>选择你想找的工作</h4>
+  </div>
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>安保工作</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>24</strong> 小时</p>
+          <p><strong>3</strong> 次免费午餐</p>
+          <p><strong>5</strong> 天免费住宿</p>
+          <p><strong>2</strong> 班倒</p>
+          <p><strong>需要</strong> 有安保经验</p>
+        </div>
+        <div class="panel-footer">
+          <h3>¥1000</h3>
+          <h4>每天</h4>
+          <%= link_to("马上注册", new_user_registration_path, :class => "btn btn-danger")%>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>快递服务</h1>
+        </div>
+        <div class="panel-body">
+
+          <p><strong>24</strong> 小时</p>
+          <p><strong>3</strong> 次免费午餐</p>
+          <p><strong>5</strong> 天免费住宿</p>
+          <p><strong>2</strong> 班倒</p>
+          <p><strong>需要</strong> 熟悉地形</p>
+
+        </div>
+        <div class="panel-footer">
+          <h3>¥2000</h3>
+          <h4>每天</h4>
+          <%= link_to("马上注册", new_user_registration_path, :class => "btn btn-danger")%>
+
+        </div>
+      </div>
+    </div>
+   <div class="col-sm-3">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>维修员</h1>
+        </div>
+        <div class="panel-body">
+
+          <p><strong>24</strong> 小时</p>
+          <p><strong>3</strong> 次免费午餐</p>
+          <p><strong>5</strong> 天免费住宿</p>
+          <p><strong>2</strong> 班倒</p>
+          <p><strong>需要</strong> 熟练技能</p>
+
+        </div>
+        <div class="panel-footer">
+          <h3>¥3000</h3>
+          <h4>每天</h4>
+          <%= link_to("马上注册", new_user_registration_path, :class => "btn btn-danger")%>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+       <div class="panel panel-default text-center">
+         <div class="panel-heading">
+           <h1>私人定制</h1>
+         </div>
+         <div class="panel-body">
+
+           <p><strong>24</strong> 小时</p>
+           <p><strong>3</strong> 次免费午餐</p>
+           <p><strong>5</strong> 天免费住宿</p>
+           <p><strong>2</strong> 班倒</p>
+           <p><strong>任务</strong> 根据客人需求进行调整</p>
+
+         </div>
+         <div class="panel-footer">
+           <h3>¥4000</h3>
+           <h4>每天</h4>
+           <%= link_to("马上注册", new_user_registration_path, :class => "btn btn-danger")%>
+
+         </div>
+       </div>
+     </div>
+
+
+
+
+  </div>
+</div>
+
+<!-- footer信息 -->
+<div class="container-fluid bg-grey">
+  <h2 class="text-center">联系我</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>请您写下关于这个网站的意见，我会24小时内和您联系</p>
+      <p>提交功能会在下个版本实现</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> 深圳华强北</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +0755 88888888</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> hwha2008@hotmail.com</p>
+    </div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="姓名" placeholder="您的姓名:" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="SlackID或者微信:" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="您的意见" placeholder="您的意见:" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="提交">提交</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
