@@ -11,6 +11,10 @@ Rails.application.routes.draw do
 end
 
   resources :jobs do
+    collection do
+     get :search
+   end
+
     resources :resumes
   end
 
