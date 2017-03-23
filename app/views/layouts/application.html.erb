@@ -21,5 +21,17 @@
       <%= yield %>
     </div>
     <%= render "common/footer" %>
+
+    <script type="text/javascript" src="https://static.filestackapi.com/v3/filestack.js"></script>
+<script>
+    var client = filestack.init('Aq9BpUF2VQgdomhyHaW3Qz');
+    function showPicker() {
+        client.pick({
+        }).then(function(result) {
+            console.log(JSON.stringify(result.filesUploaded))
+        });
+    }
+</script>
+<input type="button" value="Upload" onclick="showPicker()" />
   </body>
 </html>
